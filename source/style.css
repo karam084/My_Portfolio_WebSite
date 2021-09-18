@@ -8,8 +8,6 @@ body {
 
 .box {
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -27,8 +25,6 @@ body {
   padding: 20px;
 }
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -53,9 +49,6 @@ body {
   color: brown;
 }
 .topnav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -79,8 +72,6 @@ body {
   color: brown;
 }
 .flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100px;
   -webkit-box-orient: horizontal;
@@ -146,8 +137,6 @@ body {
 }
 .ellipse3 {
   position: static;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 200px;
   height: 130px;
@@ -235,8 +224,6 @@ body {
   top: 90px;
 }
 .media_ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100px;
   -webkit-box-orient: horizontal;
@@ -258,8 +245,6 @@ body {
   bottom: 87.08%;
 }
 .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100px;
   -webkit-box-orient: horizontal;
@@ -281,8 +266,6 @@ body {
   background: url(image_processing20200410-17374-6o69vv.png);
 }
 .cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100px;
   -webkit-box-orient: horizontal;
@@ -304,8 +287,6 @@ body {
 }
 ul,
 .list1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 50%;
   height: 100px;
@@ -324,8 +305,6 @@ ul,
 }
 
 li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -344,8 +323,6 @@ li:hover {
   color: brown;
 }
 .botum {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100px;
   -webkit-box-orient: horizontal;
@@ -365,8 +342,6 @@ li:hover {
 }
 .prim {
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -384,8 +359,6 @@ li:hover {
 }
 @media screen and (max-width: 375px) {
   body {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
