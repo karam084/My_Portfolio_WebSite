@@ -83,8 +83,8 @@ body {
   padding-left: 1em;
 }
 .text {
-  width: 60;
-  font-family: Poppins;
+  width: 60%;
+  font-family: "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -98,7 +98,7 @@ body {
 }
 .text1 {
   position: sticky;
-  font-family: Poppins;
+  font-family: "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -112,7 +112,7 @@ body {
 }
 .text3 {
   width: 117px;
-  font-family: Poppins;
+  font-family: "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -260,7 +260,8 @@ body {
   align-items: center;
 }
 .Snapshoot {
-  width: 544px;
+  display: flex;
+  width: 1000px;
   height: 448px;
   padding-top: 70em;
   background: url(image_processing20200410-17374-6o69vv.png);
@@ -294,7 +295,7 @@ ul,
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding-left: 0em;
+  padding-left: 0px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -335,13 +336,11 @@ li:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 10px 10px;
-  padding-top: 60em;
   padding: 20px;
   padding-left: 35em;
 }
 .prim {
-  width: 50%;
+  width: 30%;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -356,6 +355,21 @@ li:hover {
   flex-direction: column;
   padding-left: 35em;
   padding-top: 30em;
+}
+.seproj {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 80%;
 }
 @media screen and (max-width: 375px) {
   body {
