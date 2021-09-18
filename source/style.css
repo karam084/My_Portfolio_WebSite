@@ -3,7 +3,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 10px;
-  margin: 0px;
+  margin: 1px;
 }
 
 .box {
@@ -68,7 +68,7 @@ body {
   padding: 10px;
   text-decoration: none;
   font-size: 17px;
-  margin-top: 0px;
+  margin-top: 1px;
 }
 
 .topnav a:hover {
@@ -177,11 +177,8 @@ body {
   height: 28.87px;
   left: 731.44px;
   top: 750px;
-
   -webkit-transform: rotate(23.34deg);
-
   -ms-transform: rotate(23.34deg);
-
   transform: rotate(23.34deg);
 }
 
@@ -320,7 +317,7 @@ ul,
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding-left: 0px;
+  padding-left: 1px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
